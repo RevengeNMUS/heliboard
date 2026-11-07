@@ -1,4 +1,5 @@
 var SUS = 167;
+var AMOGUS = 35;
 
 var sus = document.getElementsByClassName("baloon");
 const viewportWidth = window.innerWidth;
@@ -23,8 +24,8 @@ for (const j of sus) {
     j.textContent = j.textContent + " - " + j.getAttribute("data-num");
 }
 
-(document.getElementById("ground")).style.top = (SUS + maxnum) + 'px';
-(document.getElementById("ground")).style.left = (0.5 * window.innerWidth) + 'px';
+(document.getElementById("ground")).style.top = (SUS + maxnum + AMOGUS) + 'px';
+(document.getElementById("ground")).style.left = 0 + 'px';
 
 setTimeout(() => {
     for (const j of sus) {
