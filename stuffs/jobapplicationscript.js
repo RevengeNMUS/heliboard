@@ -11,7 +11,7 @@ for (const j of sus) {
 var maxnum = 0;
 
 for (const j of sus) {
-    j.style.left = ((Math.random()) * (window.innerWidth - 676) + 288) + 'px';
+    j.style.left = ((Math.random()) * (window.innerWidth/2) + (window.innerWidth/5)) + 'px';
     maxnum = Math.max(maxnum, j.getAttribute("data-num"));
 }
 
